@@ -1,0 +1,15 @@
+com/doctell/MainApplication.java
+ com.doctell.MainApplication
+ com.doctell.MainApplication$1
+com/doctell/BuildConfig.java
+ com.doctell.BuildConfig
+com/doctell/ReactNativeFlipper.java
+ com.doctell.ReactNativeFlipper
+ com.doctell.ReactNativeFlipper$1
+ com.doctell.ReactNativeFlipper$2
+ com.doctell.ReactNativeFlipper$2$1
+com/doctell/MainActivity.java
+ com.doctell.MainActivity
+ com.doctell.MainActivity$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.doctell"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/3dae412941e591f0c9e38cdcda6946cf/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/3dae412941e591f0c9e38cdcda6946cf/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+16
+17    <queries>
+17-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+18        <intent>
+18-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+19-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+20        </intent>
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Required to access Google Play Licensing -->
+23-->[:react-native-maps] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+23-->[:react-native-maps] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+24    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+24-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+24-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+25    <!--
+26         Required to keep CPU alive while downloading files
+27        (NOT to keep screen awake)
+28    -->
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+29-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
+30    <!--
+31         Required to poll the state of the network connection
+32        and respond to changes
+33    -->
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+34-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:22-76
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+39
+40    <application
+40-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:8:5-28:19
+41        android:name="com.doctell.MainApplication"
+41-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:10:7-38
+42        android:allowBackup="false"
+42-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:14:7-34
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.1.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/df087b5e2f442bf511b04dd5f84bb83e/core-1.1.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:12:7-41
+46        android:label="@string/app_name"
+46-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:11:7-39
+47        android:roundIcon="@mipmap/ic_launcher"
+47-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:13:7-46
+48        android:theme="@style/AppTheme"
+48-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:15:7-38
+49        android:usesCleartextTraffic="true" >
+49-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:9:7-42
+50        <activity
+50-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:16:7-26:18
+51            android:name="com.doctell.MainActivity"
+51-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:17:9-37
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+52-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:19:9-86
+53            android:label="@string/app_name"
+53-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:18:9-41
+54            android:launchMode="singleTask"
+54-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:20:9-40
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:21:9-51
+56            <intent-filter>
+56-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:22:9-25:25
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:23:13-65
+57-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:23:21-62
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:24:13-73
+59-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:24:23-70
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+62-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:27:7-84
+62-->/Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/android/app/src/main/AndroidManifest.xml:27:17-81
+63
+64        <provider
+64-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+65            android:name="androidx.core.content.FileProvider"
+65-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+66            android:authorities="com.doctell.provider"
+66-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+67            android:exported="false"
+67-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+68            android:grantUriPermissions="true" >
+68-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+69            <meta-data
+69-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+71                android:resource="@xml/provider_paths" />
+71-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+72        </provider>
+73
+74        <activity
+74-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+75            android:name="com.yalantis.ucrop.UCropActivity"
+75-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+76            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+76-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+77
+78        <provider
+78-->[:react-native-webview] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+79            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+79-->[:react-native-webview] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+80            android:authorities="com.doctell.fileprovider"
+80-->[:react-native-webview] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+81            android:exported="false"
+81-->[:react-native-webview] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+82            android:grantUriPermissions="true" >
+82-->[:react-native-webview] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+83            <meta-data
+83-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+85                android:resource="@xml/file_provider_paths" />
+85-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+86        </provider>
+87        <provider
+87-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+88            android:name="com.RNFetchBlob.Utils.FileProvider"
+88-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+89            android:authorities="com.doctell.provider"
+89-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+90            android:exported="false"
+90-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+91            android:grantUriPermissions="true" >
+91-->[:rn-fetch-blob] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+92            <meta-data
+92-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+94                android:resource="@xml/provider_paths" />
+94-->[:react-native-image-crop-picker] /Volumes/Data/Projects/Projects/React_Native_Projects/Final_Project/LatestVersionProjects/DoctreatNew/doctreat_react-native/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+95        </provider> <!-- Needs to be explicitly declared on P+ -->
+96        <uses-library
+96-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+97            android:name="org.apache.http.legacy"
+97-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+98            android:required="false" />
+98-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/b8348991a984736d3465f841347fabe2/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+108
+109        <service
+109-->[androidx.room:room-runtime:2.1.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/9142d255b73c90ac8e715d7610e747fb/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+110            android:name="androidx.room.MultiInstanceInvalidationService"
+110-->[androidx.room:room-runtime:2.1.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/9142d255b73c90ac8e715d7610e747fb/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+111            android:exported="false" />
+111-->[androidx.room:room-runtime:2.1.0] /Users/mobiledeveloper/.gradle/caches/transforms-2/files-2.1/9142d255b73c90ac8e715d7610e747fb/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+112    </application>
+113
+114</manifest>
